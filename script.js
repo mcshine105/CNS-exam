@@ -28,7 +28,7 @@ function begin() {
 function loadQuestion() {
   if (current >= QUESTIONS.length) return finishExam();
 
-  timer = 30;
+  timer = 50;
   const q = QUESTIONS[current];
   const box = document.getElementById("questionBox");
 
