@@ -62,7 +62,7 @@ const QUESTIONS = [
   {
     "question": "After configuring a router interface, which command must be issued to change its status from 'Administratively Down' to 'Up'?",
     "options": ["A. no shutdown", "B. enable interface", "C. startup", "D. interface active"],
-    "answer": "B"
+    "answer": "A"
   },
   {
     "question": "What does the acronym IS-IS stand for?",
@@ -177,12 +177,12 @@ const QUESTIONS = [
   {
     "question": "Which OSI layer is responsible for the logical addressing of 'Packets'?",
     "options": ["A. Layer 2", "B. Layer 3", "C. Layer 4", "D. Layer 7"],
-    "answer": "D"
+    "answer": "B"
   },
   {
     "question": "In OSPF terminology, what is a 'Transient Link'?",
     "options": ["A. A physical cable that is currently disconnected", "B. A network segment with multiple routers attached (e.g., Ethernet)", "C. A serial connection between exactly two routers", "D. A virtual tunnel used for secure encrypted traffic"],
-    "answer": "D"
+    "answer": "B"
   },
   {
     "question": "What does the acronym FLSM represent in the context of subnetting?",
@@ -202,22 +202,22 @@ const QUESTIONS = [
   {
     "question": "How does the RIP protocol determine the 'best' path to a destination?",
     "options": ["A. By measuring the highest bandwidth", "B. By counting the number of router hops to the destination", "C. By calculating the lowest financial cost of the link", "D. By analyzing the reliability of the physical cable"],
-    "answer": "D"
+    "answer": "B"
   },
   {
     "question": "What is the primary action of a packet sent to a Broadcast Address?",
     "options": ["A. It is delivered to a single specific host", "B. It is delivered to every host on the local network segment", "C. It is used solely to test the local network interface card", "D. It is used to connect two routers in different geographic cities"],
-    "answer": "D"
+    "answer": "B"
   },
   {
     "question": "What is the primary role of an EGP?",
     "options": ["A. Managing traffic within a small home office network", "B. Exchanging routing information between different Autonomous Systems", "C. Assigning dynamic IP addresses to internal network hosts", "D. Switching Layer 2 frames within a data center"],
-    "answer": "D"
+    "answer": "B"
   },
   {
     "question": "What is the primary organizational benefit of using 'Subnetting'?",
     "options": ["A. It physically increases the speed of the internet connection", "B. It divides a large network into smaller, more efficient logical segments", "C. It increases the physical length capacity of an Ethernet cable", "D. It allows Wi-Fi devices to connect without a password"],
-    "answer": "D"
+    "answer": "B"
   },
   {
     "question": "In OSPF, what must be true for two routers on the same segment to become 'Neighbors'?",
@@ -227,17 +227,17 @@ const QUESTIONS = [
   {
     "question": "What characterizes a 'Point to Point' link in a network?",
     "options": ["A. A single router connected to a switch with many hosts", "B. A direct communication link between exactly two nodes", "C. A wireless access point serving multiple client devices", "D. A specific Layer 2 connection type"],
-    "answer": "D"
+    "answer": "B"
   },
   {
     "question": "In computing, 'x86' refers to which category?",
     "options": ["A. The maximum speed of a Category 6 network cable", "B. A common family of CPU architectures", "C. A specific port number used for secure web browsing", "D. A processor instruction set standard"],
-    "answer": "D"
+    "answer": "B"
   },
   {
     "question": "What is the purpose of an SSID in a wireless network?",
     "options": ["A. It acts as the hardware MAC address of the router", "B. It is the human-readable name of the wireless network", "C. It is the encryption key used to protect the data", "D. The unique identifier for a WLAN"],
-    "answer": "D"
+    "answer": "B"
   },
   {
     "question": "How does a Link State protocol (like OSPF) differ from Distance Vector protocols?",
@@ -249,4 +249,5 @@ const QUESTIONS = [
     "options": ["A. It provides a secure, encrypted tunnel over a public network", "B. It significantly increases the physical speed of the ISP connection", "C. It allows for the assignment of more IP addresses to a home network", "D. It provides automatic DNS resolution for all websites"],
     "answer": "A"
   }
-];
+]
+;
